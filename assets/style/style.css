@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #e6e6e6;	
+	line-height: 1,5;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	padding: 20px;
+}
+
+.card {
+	box-shadow:  0 4px 8px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: white;
+}
+.profile img {
+	width: 200px;
+}
+
+.gambar {
+	width: 100%;
+	max-height: 300px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.yudha {
+	font-size: 20px;
+	padding: 60px;
+	background-color: #16697a;
+	text-align: center;
+	color: white;
+}
+
+nav {
+	background-color: #db6400;
+	padding: 5px;
+	position: sticky;	
+	top: 0;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+nav a {
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+.profile header {
+	text-align: center;
+}
+
+h2 {
+	color: #16697a;
+}
+
+footer {
+	text-align: center;
+   	font-weight: bold;
+	padding: 20px;
+	color: white;
+	background-color:#ffa62b;
+}
+
+aside {
+	float: right;
+	width: 25%;
+	padding-left: 20px; 
+}
+
+main {
+	overflow: auto;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+} 
+
+header {
+   display: inline;
+}
+.cardbox2 {
+	width: 45%;
+	 display: inline;
+}
+
+.gambar-yudha img {
+	width: 120px;
+    height: 120px;
+    border-radius: 120px;
+}
+
+
